@@ -1,6 +1,7 @@
 body{
     margin: 0px auto;
     font-family: 'Oswald', sans-serif;
+    
 }
 /* menubar css start  */
 .menubar{
@@ -20,9 +21,9 @@ ul {
     display: block;
     color: black;
     text-align: center;
-    font-weight: 700;
     padding: 10px 15px;
     text-decoration: none;
+    font-weight: bold;
   }
   
   li a:hover {
@@ -43,8 +44,8 @@ ul {
   }
   .left-side h1{
       font-size: 50px;
-      font-weight: bolder;
       line-height: 10px;
+      font-weight: 900;
   }
   .left-side p{
       margin-bottom: 40px;
@@ -80,6 +81,7 @@ ul {
     width: 500px;
     float: right;
     margin: 100px 20px;
+    font-weight: bold;
 }
 /* about css end */
 
@@ -94,6 +96,7 @@ ul {
     font-weight: bold;
     text-align: center;
     margin: 20px 0px;
+    font-weight: bold;
 }
 .latest{
     color: #31B0D5;
@@ -170,6 +173,12 @@ ul {
 .social{
   text-align: center;
   line-height: 5px;
+}
+.social h5{
+  font-weight: bold;
+}
+.social h3{
+  font-weight: bold;
 }
 .icon img{
   width: 50px;
